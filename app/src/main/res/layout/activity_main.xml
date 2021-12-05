@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#505050">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRATION"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_marginVertical="100dp">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/insertEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email:"
+            android:gravity="center"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:layout_margin="10dp">
+
+        </EditText>
+
+        <EditText
+
+            android:id="@+id/insertPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Create a Password:"
+            android:gravity="center"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:layout_margin="10dp">
+
+        </EditText>
+
+        <EditText
+
+            android:id="@+id/insertPassword2EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repeat Password:"
+            android:gravity="center"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:layout_margin="10dp">
+
+        </EditText>
+
+        <Button
+
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="submit"
+            android:textSize="15sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
